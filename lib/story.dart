@@ -6,5 +6,5 @@ class Story {
   String choice2; //for second choice text
 
   //added constructor to initialize the class
-  Story(this.storyTitle, this.choice1, this.choice2);
+  Story({this.storyTitle, this.choice1, this.choice2});
 }
